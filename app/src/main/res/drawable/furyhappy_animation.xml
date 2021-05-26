@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    android:visible="false">
+
+    <item android:drawable="@drawable/ic_furyhappy0" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy1" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy2" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy3" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy4" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy5" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy6" android:duration="1000" />
+    <item android:drawable="@drawable/ic_furyhappy5" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy4" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy3" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy2" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy1" android:duration="50" />
+    <item android:drawable="@drawable/ic_furyhappy0" android:duration="50" />
+
+</animation-list>

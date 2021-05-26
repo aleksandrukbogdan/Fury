@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#43A047">
+
+    <ImageButton
+        android:id="@+id/dialogexit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_gravity=""
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/exitlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="45dp"
+        android:scaleX="1.1">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:src="@drawable/leveldialogbg"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:src="@drawable/leveldialogbg"
+            android:scaleType="fitXY"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="220dp"
+                android:src="@drawable/leveldialogbg"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="220dp"
+                android:text="1"
+                android:textSize="145sp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:textColor="#5E35B1"
+                android:fontFamily="@font/coiny"
+                android:textStyle="bold"
+                android:id="@+id/level_tVDialog"/>
+
+        </FrameLayout>
+
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:src="@drawable/leveldialogbg"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:src="@drawable/leveldialogbg"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:visibility="invisible"
+        android:id="@+id/rewardlevel">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/award_received"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/coiny"
+            android:textColor="#5E35B1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 50"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/coiny"
+            android:textColor="#FDD835"
+            android:gravity="center"
+            android:id="@+id/level_reward_tV"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/coinsminigame"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

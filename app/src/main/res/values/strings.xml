@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fury</string>
+    <string name="start_game">Start Game</string>
+    <string name="tofeed">Feed</string>
+    <string name="tofeed1">give</string>
+    <string name="cost1">cost</string>
+    <string name="product1">product</string>
+    <string name="result_fb">Result:</string>
+    <string name="best_result_fb">Best result:</string>
+    <string name="game_over_fb">Game over</string>
+    <string name="click_to_try_again_fb">Click to try again…</string>
+    <string name="mini_games">MINI GAMES</string>
+    <string name="flappy_bird">Flappy Bird</string>
+    <string name="award_received">Award received:</string>
+    <string name="settings">Table of records</string>
+    <string name="about_the_game">About the game</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="soup">Soup</string>
+    <string name="pizza">Pizza</string>
+    <string name="juice">Juice</string>
+
+    <string name="tittle_about_game">About the game</string>
+    <string name="text_about_game">The game is in active development \nAuthors of the idea, programmers:
+        \nAlexandruk Bogdan and Stasyuk Alexander \nGraphic designers: \nAlexandruk Bogdan and Stasyuk Alexander</string>
+    <string name="your_name">Вас зовут...</string>
+    <string name="Enter_your_name">Введите ваше имя...</string>
+    <string name="confirm">Применить</string>
+    <string name="createnew">Создать нового питомца...</string>
+    <string name="withoutpet">Продолжить со старым...</string>
+
+</resources>

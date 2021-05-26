@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fury"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:5:5-50:19
+12        android:allowBackup="true"
+12-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\Богдан\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:10:9-35
+20        android:theme="@style/Theme.Fury" >
+20-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:11:9-42
+21        <activity
+21-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:12:9-23:20
+22            android:name="com.example.fury.Shell"
+22-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:13:13-34
+23            android:clearTaskOnLaunch="true"
+23-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:14:13-45
+24            android:launchMode="singleTask"
+24-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:15:13-44
+25            android:screenOrientation="landscape" >
+25-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:16:13-50
+26            <intent-filter>
+26-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:25:9-29:53
+33            android:name="com.example.fury.Activity_FirstStart"
+33-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:26:13-48
+34            android:clearTaskOnLaunch="true"
+34-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:27:13-45
+35            android:launchMode="singleTask"
+35-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:28:13-44
+36            android:screenOrientation="landscape" />
+36-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:29:13-50
+37        <activity
+37-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:31:9-35:53
+38            android:name="com.example.fury.MainActivity"
+38-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:32:13-41
+39            android:clearTaskOnLaunch="true"
+39-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:33:13-45
+40            android:launchMode="singleTask"
+40-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:34:13-44
+41            android:screenOrientation="landscape" />
+41-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:35:13-50
+42        <activity
+42-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:37:9-41:53
+43            android:name="com.example.fury.Preloading"
+43-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:38:13-39
+44            android:clearTaskOnLaunch="true"
+44-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:39:13-45
+45            android:launchMode="singleTask"
+45-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:40:13-44
+46            android:screenOrientation="landscape" />
+46-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:41:13-50
+47        <activity
+47-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:43:9-48:39
+48            android:name="com.example.fury.flappy_bird.FlappyBirdActivity"
+48-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:44:13-59
+49            android:clearTaskOnLaunch="true"
+49-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:45:13-45
+50            android:launchMode="singleTask"
+50-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:46:13-44
+51            android:noHistory="true"
+51-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:48:13-37
+52            android:screenOrientation="landscape" />
+52-->C:\Users\Богдан\Desktop\FuryFinal1\app\src\main\AndroidManifest.xml:47:13-50
+53    </application>
+54
+55</manifest>

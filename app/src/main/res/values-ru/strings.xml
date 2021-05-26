@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Фури</string>
+    <string name="start_game">Начать игру</string>
+    <string name="tofeed">Покормить</string>
+    <string name="tofeed1">дать</string>
+    <string name="cost1">цена</string>
+    <string name="product1">продукт</string>
+    <string name="result_fb">Результат:</string>
+    <string name="best_result_fb">Лучший результат:</string>
+    <string name="game_over_fb">Игра окончена</string>
+    <string name="click_to_try_again_fb">Нажмите для продолжения…</string>
+    <string name="mini_games">МИНИ ИГРЫ</string>
+    <string name="flappy_bird">Летающая Птичка</string>
+    <string name="award_received">Награда получена:</string>
+    <string name="settings">Таблица Рекордов</string>
+    <string name="about_the_game">Об игре</string>
+    <string name="vegetables">Овощи</string>
+    <string name="soup">Суп</string>
+    <string name="pizza">Пицца</string>
+    <string name="juice">Сок</string>
+
+    <string name="tittle_about_game">Об игре</string>
+    <string name="text_about_game">Игра в активной разработке\nАвторы идеи, программисты:\nАлександрук Богдан и Стасюк Александр\nГрафические дизайнеры:\nАлександрук Богдан и Стасюк Александр</string>
+
+</resources>
